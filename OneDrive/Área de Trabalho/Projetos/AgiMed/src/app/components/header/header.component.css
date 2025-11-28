@@ -1,0 +1,78 @@
+/* container centralizado */
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* HEADER */
+.app-header {
+  border-bottom: 1px solid #E6E6E6;
+  /* linha cinza */
+}
+
+/* estrutura */
+.navBar {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+/* LOGO + NOME */
+.logoArea {
+  display: flex;
+  align-items: center;
+  width: 38px;
+  height: 48px;
+  gap: 8px;
+}
+
+.nomeAgimed {
+  font-family: "DM Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4FA1C9;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  gap: 32px;
+  margin-left: auto;
+  /* empurra o menu ao centro */
+  margin-right: 24px;
+  /* distância do botão */
+}
+
+.menu a {
+  font-family: "DM Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #595959;
+  text-decoration: none;
+}
+
+/* LINK AZUL (Baixar App) */
+.menu .linkAzul {
+  color: #004B9F;
+}
+
+.menu a:hover {
+  color: #004B9F;
+}
+
+/* BOTÃO */
+.botaoEntrar {
+  background-color: #004B9F;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 44px;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-weight: 600;
+  cursor: pointer;
+}

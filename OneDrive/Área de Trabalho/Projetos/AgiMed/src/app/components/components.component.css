@@ -1,0 +1,7 @@
+.app-header{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    border-bottom:gray;
+}
+

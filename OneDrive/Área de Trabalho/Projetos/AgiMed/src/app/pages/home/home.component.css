@@ -1,0 +1,378 @@
+/* === FONTE GLOBAL DA HOME === */
+:host {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Container igual ao header */
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* HERO VERTICAL */
+.hero {
+  text-align: center;
+  padding: 60px 0;
+}
+
+/* Título */
+.hero-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #004B9F;
+  margin-bottom: 30px;
+}
+
+/* Imagem centralizada */
+.hero-image img {
+  width: 350px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Texto */
+.hero-subtitle {
+  margin: 20px auto;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #444;
+}
+
+/* Botões */
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background: #004B9F;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 180px;
+}
+
+.link-secundario {
+  font-size: 14px;
+  color: #0066ff;
+  text-decoration: underline;
+}
+
+/* Fundo ocupando a tela toda */
+.cards {
+  width: 100%;
+  background: #f8f9fb;
+  padding: 50px 0;
+}
+
+/* Container dos cards */
+.cards .container {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 23%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+/* Título */
+.card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #004B9F;
+}
+
+/* Texto */
+.card p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3D4552;
+}
+
+.usuario-card h3 {
+font-family: "DM Sans";
+ color: #004B9F;
+}
+
+/* ====== SESSÃO: PARA QUEM É O AGIMED ====== */
+.cards-usuarios {
+  width: 100%;
+  background: #ffffff;
+  padding: 60px 0;
+  background: #f8f9fb;
+}
+
+.usuarios-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #004B9F;
+  margin-bottom: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+.usuarios-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.usuario-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  width: 32%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+/* ÍCONES */
+.usuario-card .icon img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 4px;
+}
+
+/* ====== SESSÃO: LEVE O AGIMED COM VOCÊ ====== */
+.agimed-mobile {
+  padding: 80px 0;
+  background: #f8f9fb;
+}
+
+.mobile-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #004B9F;
+  margin-bottom: 50px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.mobile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+/* IMAGEM */
+.mobile-image img {
+  width: 340px;
+  max-width: 100%;
+  transform: rotate(-8deg);
+  filter: drop-shadow(0 8px 20px rgba(0,0,0,0.15));
+}
+
+/* TEXTOS */
+.mobile-content {
+  max-width: 500px;
+}
+
+/* Título */
+.how-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #004B9F;
+  margin-bottom: 20px;
+}
+
+/* Lista */
+.how-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.how-list li {
+  display: flex;
+  align-items: center; /* ← AJUSTE PRINCIPAL */
+  gap: 15px;           /* ← Espaço ideal */
+  font-size: 15px;
+  color: #1F2937;
+  margin-bottom: 14px;
+  font-family: "DM Sans";
+}
+
+.how-list li span {
+  background: #004B9F;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* ← CENTRALIZA O NÚMERO */
+  font-weight: 600;
+}
+
+/* SEGURANÇA */
+.privacy h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1F2937;
+}
+
+.privacy p {
+  font-family: "DM Sans";
+  font-size: 14px;
+  color: #3D4552;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+/* BOTÕES DAS LOJAS */
+.store-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* distância entre os botões */
+}
+
+/* BOTÃO */
+.btn-store {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: 128px;            /* largura real do Figma */
+  height: 40px;            /* altura visual do Figma */
+  padding: 0 18px;
+
+  background: #1B1B1B;
+  border-radius: 10px;
+
+  text-decoration: none;
+  cursor: pointer;
+
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.12),
+    0 6px 12px rgba(0, 0, 0, 0.10);
+
+  transition: all 0.15s ease;
+}
+
+/* ÍCONE */
+.btn-store img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+/* TEXTO */
+.btn-store span {
+  color: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/*efeito hover opcional */
+.btn-store:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.14),
+    0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+
+/* ======================================================= */
+/*                    DEPOIMENTOS                          */
+/* ======================================================= */
+
+.depoimentos {
+  padding: 60px 0;
+  background: #f8f9fb;
+}
+
+.depo-title {
+  font-size: 20px;
+  color: #004B9F;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.depo-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.depo-card {
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  gap: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  align-items: flex-start;
+}
+
+.depo-card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.depo-content {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Texto principal */
+.depo-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #1F2937;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Nome */
+.depo-user {
+  font-size: 14px;
+  color: #004B9F;
+  font-style: italic;
+  font-family: "DM Sans", sans-serif;
+}
+
+.depo-user span {
+  color: #004B9F;
+  font-weight: 600;
+}
+
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .mobile-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .how-list li {
+    justify-content: center;
+  }
+}
+
